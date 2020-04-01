@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Signal_Generator)(type Legacy)(uri ${KIPRJMOD}/XR2206CP-F.lib)(options "")(descr "Function generator IC"))
+)

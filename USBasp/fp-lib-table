@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name USBasp)(type KiCad)(uri /home/bruno/Documentos/USBasp)(options "")(descr ""))
+  (lib (name Connector_JTAG)(type KiCad)(uri ${KISYSMOD}/Connector_JTAG.pretty)(options "")(descr ""))
+)
