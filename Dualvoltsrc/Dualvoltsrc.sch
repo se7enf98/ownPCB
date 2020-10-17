@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Dual-voltage adjustable power supply"
-Date "2020-04-01"
-Rev "v01"
+Date "2020-10-12"
+Rev "v02"
 Comp ""
 Comment1 ""
 Comment2 "creativecommons.org/licenses/by/4.0/"
@@ -378,8 +378,6 @@ Wire Wire Line
 	3700 4550 3700 4150
 Connection ~ 3700 4150
 Wire Wire Line
-	2100 3750 2600 3750
-Wire Wire Line
 	2100 4800 3900 4800
 Wire Wire Line
 	3900 4800 3900 4150
@@ -561,17 +559,6 @@ F 3 "" H 4250 4050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 4050 4250 3950
-$Comp
-L Device:Fuse F1
-U 1 1 5E76A11A
-P 1950 3750
-F 0 "F1" V 1753 3750 50  0000 C CNN
-F 1 "Fuse 1.5A" V 1844 3750 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 1880 3750 50  0001 C CNN
-F 3 "~" H 1950 3750 50  0001 C CNN
-	1    1950 3750
-	0    1    1    0   
-$EndComp
 $Comp
 L Connector:Screw_Terminal_01x03 J1
 U 1 1 5E76ACBD
@@ -755,8 +742,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 3950 6250 3950
 Wire Wire Line
-	1800 3750 1600 3750
-Wire Wire Line
 	1600 3850 2300 3850
 Wire Wire Line
 	2100 3950 1600 3950
@@ -810,4 +795,6 @@ F 3 "~" H 7600 1750 50  0001 C CNN
 	1    7600 1750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1600 3750 2600 3750
 $EndSCHEMATC

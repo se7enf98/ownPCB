@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "XR2206 1Hz - 2MHz Function Generator"
-Date "2020-04-01"
-Rev "v01"
+Date "2020-10-12"
+Rev "v02"
 Comp ""
 Comment1 ""
 Comment2 "creativecommons.org/licenses/by/4.0/"
